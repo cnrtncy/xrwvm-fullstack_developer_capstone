@@ -42,7 +42,7 @@ img{
 }
 
 .homepage_links{
-  color:  rgb(97, 64, 128);
+  color:  white;
   padding: 25%;
   font-size: larger;
   }
@@ -51,6 +51,7 @@ img{
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  
 }
 
 .banner{
