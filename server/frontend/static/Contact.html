@@ -3,6 +3,7 @@
     <link rel="stylesheet" href="/static/style.css">
     <link rel="stylesheet" href="/static/bootstrap.min.css">
 </head>
+<body>
 <div>
   <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark" style="height: 1in;">
     <div class="container-fluid">
@@ -26,7 +27,42 @@
     </div>
   </nav>
 
-  <div class="container border border-2 w-80 rounded p-10">
-    <p>Hello</p>
+  <div class="container pt-5 pb-5">
+    <div class="d-flex w-80 border border-2 rounded-3 justify-content-center p-3">
+      <div class="container text-center">
+        <img class="rounded" src="/static/autogallery.jpg" alt="Auto Gallery">
+        <div class="p-4">
+          <h1>Contact Us</h1>
+          <ion-icon name="call-outline" size="large"></ion-icon>
+        </div>
+        
+        <div class="row align-items-center">
+          <div class="col">
+            <div class="row align-items-center">
+              <ion-icon name="location-outline" size="large" style="color:blue"></ion-icon>
+            </div>
+            <div class="row align-items-center">
+              <p>123 Cleveland St, City of Orange, NJ 07050, USA</p>
+              <img class="border border-2 rounded" src="/static/map.png" alt="Map">
+            </div>  
+          </div>
+          <div class="col">
+            <p class="fw-bold text-primary">Contact Customer Service</p>
+            <p>088-976-543-21</p>
+            <p class="fw-bold text-primary">Contact Our Advertising Team</p>
+            <p>advertising@contact.com</p>
+            <p class="fw-bold text-primary">Contact Our Public Relations Team</p>
+            <p>pr@contact.com</p>
+          </div>
+          
+        </div>
+      </div>
+
+    </div>
+    
   </div>
+  </div>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
 </html>
